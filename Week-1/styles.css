@@ -1,0 +1,28 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  button{
+    color: blue;
+    background-color: white;
+  }
+  td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.check{
+    padding-left: 10px;
+}
+.box {
+  display: flex;
+  background-color: #2d2c2c;
+}
+#header-content {
+  color: aliceblue;
+}
