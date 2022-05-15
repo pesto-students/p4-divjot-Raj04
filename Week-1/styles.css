@@ -1,0 +1,87 @@
+body {
+  margin: auto;
+  font-family: "Lato", sans-serif;
+}
+.w3-black {
+  height: 87%;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.music-image {
+  padding: 30px;
+}
+.description-cattyboard {
+  margin: 20px;
+}
+.control-music {
+  margin-top: 120px;
+}
+.add-icon {
+  margin-left: 15px;
+}
+.more-icon {
+  margin-left: 15px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+button {
+  color: rgb(21, 21, 235);
+  background-color: white;
+  border-width: 2px;
+}
+td,
+th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.music-link {
+  padding-left: 10px;
+  float: right;
+}
+.box {
+  display: flex;
+  background-color: #2d2c2c;
+}
+#header-content {
+  color: aliceblue;
+}
+.footer-box {
+  background-color: steelblue;
+}
+footer {
+  margin-top: 200px;
+  height: 120px;
+  width: 100%;
+  color: aliceblue;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.footer-music-img {
+  height: 100px;
+  padding: 10px;
+}
+.control-icons {
+  margin: 45px;
+}
+.skip-icon {
+  margin-left: 750px;
+}
+.pause-icon,
+.next-icon,
+.refresh-icon {
+  margin-left: 120px;
+}
