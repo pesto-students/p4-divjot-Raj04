@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <div id="header-content" >
-        <div class="box">
-            <div class="grid-item">
-                <img src="assets/catboard.jpg" alt="CattyBoard Top 100 Single Charts(11.06.36)"/>
-            </div>
-            <div class="description-cattyboard">
-                <h6>CattyBoard Top 100 Single Charts(11.06.36)</h6>
-                <p>Unknown Artist</p>
-                <p>206.Charts.100 songs</p>
-
-                <span>Play <img src="assets/plus-solid.svg" class="plus-icon" height="20px" width="25px" /></span>
-                <i style="font-size:25px" class="fa play-icon">&#xf04b;</i>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music</title>
+  </head>
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-white w3-xxlarge" style="width:70px">
+      <i class="w3-bar-item material-icons">list</i>
+      <i class="w3-bar-item material-icons">home</i>
+      <i class="w3-bar-item material-icons">search</i>
+      <i class="w3-bar-item material-icons">volume_up</i>
+      <i class="w3-bar-item material-icons">person</i>
+      <i class="w3-bar-item material-icons">sync</i>
+      <i class="w3-bar-item material-icons">settings</i>
+      <i class="w3-bar-item material-icons">cloud</i>
     </div>
-    <table>
-        <tr class="column-one">
-          <td>1. One Dance</td>
-          <td>Create feat Catkid and Cyla</td>
-          <td>2:54</td>
-          <td class="check"><button>CATTY CLOUD SYNC</button></td>
-        </tr>
-        <tr class="column-two">
-          <td>2. Panda</td>
-          <td>Cattee</td>
-          <td>4:06</td>
-          <td><button>CATTY CLOUD SYNC</button></td>
-        </tr>
-        <tr class="column-three">
-          <td>3. Can't stop the Feeling!</td>
-          <td>Catin Cimberlake</td>
-          <td>3:56</td>\
-          <td><button>CATTY CLOUD SYNC</button></td>
-        </tr>
-        <tr class="column-four">
-          <td>4. Work From Home</td>
-          <td>Cat Harmony feat Colla</td>
-          <td>3:34</td>
-          <td><button>CATTY CLOUD SYNC</button></td>
-        </tr>
-      </table>
-</body>
+    <div id="header-content">
+      <div class="box">
+        <div class="music-image">
+          <img
+            src="assets/catboard.jpg"
+            alt="CattyBoard Top 100 Single Charts(11.06.36)"
+          />
+        </div>
+        <div class="description-cattyboard">
+          <h5>CattyBoard Top 100 Single Charts(11.06.36)</h5>
+          <p>Unknown Artist</p>
+          <p>206.Charts.100 songs</p>
+          <div class="box control-music">
+            <div class="play-icon">
+              <i class="material-icons">play_arrow</i>
+              <text>Play all</label>
+            </div>
+            <div class="add-icon">
+              <i class="material-icons">add</i><label>Add to</label>
+            </div>
+            <div class="more-icon">
+              <i class="material-icons">more_horiz </i><label>More</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table cellpadding="10" cellspacing="5">
+      <tr class="column-one">
+        <td>1. One Dance</td>
+        <td>Create feat Catkid and Cyla</td>
+        <td>2:54</td>
+        <td class="music-link"><button>CATTY CLOUD SYNC</button></td>
+      </tr>
+      <tr class="column-two">
+        <td>2. Panda</td>
+        <td>Cattee</td>
+        <td>4:06</td>
+        <td class="music-link"><button>CATTY CLOUD SYNC</button></td>
+      </tr>
+      <tr class="column-three">
+        <td>3. Can't stop the Feeling!</td>
+        <td>Catin Cimberlake</td>
+        <td>3:56</td>
+        \
+        <td class="music-link"><button>CATTY CLOUD SYNC</button></td>
+      </tr>
+      <tr class="column-four">
+        <td>4. Work From Home</td>
+        <td>Cat Harmony feat Colla</td>
+        <td>3:34</td>
+        <td class="music-link"><button>CATTY CLOUD SYNC</button></td>
+      </tr>
+    </table>
+    <footer>
+      <div class="footer-box box">
+        <div>
+          <img
+            class="footer-music-img"
+            src="assets/catboard.jpg"
+            alt="CattyBoard Top 100 Single Charts(11.06.36)"
+          />
+        </div>
+        <div>
+          <p>If It Ain't Love</p>
+          <p>Catson Derulo</p>
+        </div>
+        <div class="control-icons skip-icon">
+          <i class="material-icons">skip_previous</i>
+        </div>
+        <div class="control-icons pause-icon">
+          <i class="material-icons">pause</i>
+        </div>
+        <div class="control-icons next-icon">
+          <i class="material-icons">skip_next</i>
+        </div>
+        <div class="control-icons refresh-icon">
+          <i class="material-icons">refresh</i>
+        </div>
+        <div class="control-icons refresh-icon">
+          <i class="material-icons">shuffle</i>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
