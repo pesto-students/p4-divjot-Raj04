@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  text-align: center;
+}
+.box {
+  display: flex;
+  gap: 15px;
+}
+.image-lorem {
+  /* height: 500px; */
+  display: flex;
+  /* why do i need to add display flex again */
+  justify-content: center;
+}
+
+.one {
+  flex: 1;
+  /* background-color: aqua; */
+}
+
+.two {
+  flex: 1;
+  /* background-color: burlywood; */
+}
+
+.three {
+  flex: 1;
+  background-color: chartreuse;
+}
