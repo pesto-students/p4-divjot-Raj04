@@ -1,34 +1,20 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   background-color: #e6ffff;
 }
 header {
   text-align: center;
 }
 
-.box {
-  display: flex;
-  gap: 15px;
-}
 .image-lorem {
-  /* height: 500px; */
-  display: flex;
+  /* display: flex; */
   /* why do i need to add display flex again */
   justify-content: center;
-}
-
-.one {
-  flex: 1;
-}
-
-.two {
-  flex: 1;
-}
-
-.three {
-  flex: 1;
-  background-color: chartreuse;
+  height: 250px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 80px;
 }
 footer {
   text-align: center;
