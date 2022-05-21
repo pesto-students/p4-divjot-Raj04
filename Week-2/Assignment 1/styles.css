@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  /* overflow-y: hidden; */
+  background-color: #e6ffff;
+}
+header {
+  text-align: center;
+}
+
+.image-lorem {
+  /* display: flex; */
+  /* why do i need to add display flex again */
+  justify-content: center;
+  height: 250px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+footer {
+  text-align: center;
+  height: auto;
+  font-family: "Koulen", cursive;
+  background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  height: 20px;
+  width: 120px;
+}
