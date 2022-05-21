@@ -1,0 +1,75 @@
+.outer-div {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transition: transform 1s;
+}
+.outer-div:hover .outer-div__upper__left {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+.outer-div:hover .outer-div__upper__right {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+.outer-div:hover .outer-div__lower__left {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+}
+.outer-div:hover .outer-div__lower__right {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+.outer-div__text {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 90px;
+  font-size: 20px;
+  z-index: -1;
+}
+.outer-div__upper {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  z-index: 1;
+}
+.outer-div__lower {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  z-index: 1;
+}
+.outer-div__upper__left {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 1s;
+  transform: rotate(0deg);
+  transform-origin: top left;
+}
+.outer-div__upper__right {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  transition: transform 1s;
+  transform: rotate(0deg);
+  transform-origin: top right;
+}
+.outer-div__lower__left {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform 1s;
+  transform: rotate(0deg);
+  transform-origin: bottom left;
+}
+.outer-div__lower__right {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: transform 1s;
+  transform: rotate(0deg);
+  transform-origin: bottom right;
+}
