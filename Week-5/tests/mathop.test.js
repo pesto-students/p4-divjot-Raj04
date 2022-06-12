@@ -1,6 +1,7 @@
 // export default mathOperations;
 
-import { mathOperations } from "./mathop";
+// import { mathOperations } from "./mathop";
+const mathOperations = require("./mathop");
 
 test("should return sum of two values", () => {
   expect(mathOperations.sum(2, 3)).toBe(5);

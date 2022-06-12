@@ -1,4 +1,4 @@
-export default mathOperations = {
+const mathOperations = {
   sum: function (a, b) {
     return a + b;
   },
@@ -9,4 +9,4 @@ export default mathOperations = {
     return a * b;
   },
 };
-// export default mathOperations;
+module.exports = mathOperations;
